@@ -2,7 +2,8 @@
  function fetch_data()  
  {  
       $output = '';  
-      $conn = mysqli_connect("localhost:4306", "root", "", "gracemark");  
+      
+      $conn = mysqli_connect("seproj.mysql.database.azure.com", "arthi", "Project123456", "testing");  
       $sql = "SELECT * FROM add_marks";  
       $result = mysqli_query($conn, $sql);  
       while($row = mysqli_fetch_array($result))  
