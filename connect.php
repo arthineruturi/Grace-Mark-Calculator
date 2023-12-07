@@ -1,7 +1,7 @@
 <?php
-$host = "sqldatabase-sampleres.mysql.database.azure.com";
-$user = "arthiazure";
-$password = 'A1@azure';
+$host = "seproj.mysql.database.azure.com";
+$user = "arthi";
+$password = 'Project123456';
 $db_name = "gracemark";
 $con = mysqli_connect($host, $user, $password, $db_name);
 
